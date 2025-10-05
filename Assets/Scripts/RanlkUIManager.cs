@@ -11,6 +11,7 @@ public class RanlkUIManager : MonoBehaviour
 
     public List<PlayerData> playerDatas = new List<PlayerData>();
     public List<GameObject> createdPlayerDatas = new List<GameObject>();
+    public RankData yourRankData;
 
     void Start()
     {
